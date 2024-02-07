@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button mnemonicParsing="false" text="Boton1" />
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Boton2" />
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="Boton3" />
+      <Button layoutX="10.0" layoutY="61.0" mnemonicParsing="false" text="Boton4" />
+      <Button layoutX="10.0" layoutY="87.0" mnemonicParsing="false" text="Boton5" />
+      <Button layoutX="10.0" layoutY="112.0" mnemonicParsing="false" text="Boton6" />
+      <Button layoutX="10.0" layoutY="138.0" mnemonicParsing="false" text="Boton7" />
+      <Button layoutX="10.0" layoutY="164.0" mnemonicParsing="false" text="Boton8" />
+   </children>
+</VBox>

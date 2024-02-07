@@ -1,0 +1,26 @@
+/* Estilo para el Texto "Nombre y Apellido" */
+.text {
+    -fx-font-size: 16px;
+    -fx-fill: #333333; /* Color del texto */
+}
+
+/* Estilo para los TextField */
+.text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #f0f0f0; /* Color de fondo */
+}
+
+/* Estilo para los Botones */
+.button {
+    -fx-font-size: 14px;
+    -fx-background-color: #0076a3; /* Color de fondo */
+    -fx-text-fill: white; /* Color del texto */
+}
+
+/* Estilo para el resultado */
+.result-text-field {
+    -fx-font-size: 14px;
+    -fx-background-color: #f0f0f0; /* Color de fondo */
+    -fx-border-color: #333333; /* Color del borde */
+    -fx-border-width: 1px; /* Ancho del borde */
+}

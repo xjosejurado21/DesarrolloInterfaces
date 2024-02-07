@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MenusBar.SimpleController">
+   <children>
+      <MenuBar layoutX="1.0" prefHeight="40.0" prefWidth="600.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Ayuda">
+            <items>
+              <MenuItem mnemonicParsing="false" text="guía" onAction="#handleMenuAction"  />
+              <MenuItem mnemonicParsing="false" text="salir" onAction="#handleMenuAction" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Editar">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" onAction="#handleMenuAction"/>
+              <MenuItem mnemonicParsing="false" text="Save" onAction="#handleMenuAction"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Formatos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="XML" onAction="#handleMenuAction"/>
+              <MenuItem mnemonicParsing="false" text="FXML" onAction="#handleMenuAction"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Descargar" onAction="#handleMenuAction"/>
+              <MenuItem mnemonicParsing="false" text="Importar" onAction="#handleMenuAction"/>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Programa">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Resetear" onAction="#handleMenuAction"/>
+              <MenuItem mnemonicParsing="false" text="Close" onAction="#handleMenuAction"/>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</Pane>

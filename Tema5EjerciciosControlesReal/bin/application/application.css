@@ -1,0 +1,38 @@
+.root {
+    -fx-background-color: #f0f0f0; /* Cambia el color de fondo del panel */
+}
+
+.label {
+    -fx-font-size: 18px; /* Tamaño de fuente para las etiquetas */
+    -fx-text-fill: #760a7c; /* Color de texto para las etiquetas */
+}
+
+.checkbox {
+    -fx-font-size: 16px; /* Tamaño de fuente para los checkboxes */
+}
+
+.choice-box {
+    -fx-font-size: 16px; /* Tamaño de fuente para choicebox */
+}
+
+.combo-box {
+    -fx-font-size: 16px; /* Tamaño de fuente para combobox */
+}
+
+.radio-button {
+    -fx-font-size: 16px; /* Tamaño de fuente para los radio buttons */
+}
+
+.button {
+    -fx-font-size: 18px; /* Tamaño de fuente para los botones */
+    -fx-background-color: #4CAF50; /* Cambia el color de fondo del botón */
+    -fx-text-fill: white; /* Color de texto en botón */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Cambia el color de fondo al pasar el mouse sobre el botón */
+}
+
+.color-picker {
+    -fx-font-size: 16px; /* Tamaño de fuente para el color picker */
+}
