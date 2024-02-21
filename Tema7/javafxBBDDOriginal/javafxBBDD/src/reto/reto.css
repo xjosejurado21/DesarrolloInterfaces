@@ -1,0 +1,21 @@
+/* JavaFX CSS - Leave this comment until you have at least created one rule which uses -fx-Property */
+/* Agrega estilos específicos para el nodo raíz (root) aquí */
+.label {
+    /* Ejemplo de estilo: texto en negrita */
+    -fx-font-weight: bold;
+    -fx-text-fill: #FF5733; /* Cambiado a un tono de naranja */
+}
+
+.root {
+    -fx-background-color: #85C1E9; /* Cambiado a un tono de azul */
+}
+
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-color: #FFC300; /* Cambiado a un tono de amarillo */
+    -fx-text-fill: #FFFFFF;
+}
+
+.tableview {
+    -fx-background-color: #ABEBC6; /* Cambiado a un tono de verde */
+}

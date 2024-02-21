@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Ejercicio3.ProductoController">
+    <children>
+        <TableView fx:id="tableViewVideojuegos" prefHeight="214.0" prefWidth="910.0">
+            <columns>
+                <TableColumn fx:id="nombreColumn" prefWidth="232.0" text="Id" />
+                <TableColumn fx:id="anioColumn" prefWidth="47.0" text="Nombre" />
+                <TableColumn fx:id="precioColumn" prefWidth="63.0" text="Precio" />
+                <TableColumn fx:id="companiaColumn" prefWidth="156.0" text="Codigo_fabricante" />
+            </columns>
+        </TableView>
+    </children>
+</VBox>
